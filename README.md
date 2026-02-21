@@ -1,2 +1,34 @@
-# StellarTip
-Send XLM tips to any Stellar address with a preset amount selector (☕ $1 / 🍕 $5 / 🚀 $10 equivalent in XLM), plus a live balance display and transaction history. Simple, visual, and hits every requirement.
+# ⭐ StellarTip — XLM Tip Jar dApp
+
+Send XLM tips on Stellar Testnet. White Belt Stellar challenge submission.
+
+## Features
+- Connect/disconnect Freighter wallet
+- Live XLM balance with refresh
+- Preset tip amounts (☕10 / 🍕50 / 🚀100 XLM) + custom amount
+- Transaction feedback with hash + Stellar Expert link
+- Recent transaction history
+
+## Quick Start
+1. Install [Freighter Wallet](https://freighter.app)
+2. Switch Freighter network to **Testnet**
+3. Fund your account at [Stellar Lab Faucet](https://laboratory.stellar.org/#account-creator?network=test)
+```bash
+git clone https://github.com/YOUR_USERNAME/stellartip
+cd stellartip
+npm install
+npm run dev
+```
+
+Open http://localhost:5173
+
+## Deploy
+```bash
+npx vercel --prod
+```
+
+## Screenshots
+> Add: wallet connected, balance shown, successful transaction, tx result
+
+## Stack
+React 18 · Vite · @stellar/stellar-sdk · @stellar/freighter-api

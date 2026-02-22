@@ -14,7 +14,7 @@ Send XLM tips on Stellar Testnet. White Belt Stellar challenge submission.
 2. Switch Freighter network to **Testnet**
 3. Fund your account at [Stellar Lab Faucet](https://laboratory.stellar.org/#account-creator?network=test)
 ```bash
-git clone https://github.com/YOUR_USERNAME/stellartip
+git clone https://github.com/uncletom29/stellartip
 cd stellartip
 npm install
 npm run dev
@@ -29,6 +29,9 @@ npx vercel --prod
 
 ## Screenshots
 > Add: wallet connected, balance shown, successful transaction, tx result
+
+![StellarTip Screenshot](./stellarTip.png)
+
 
 ## Stack
 React 18 · Vite · @stellar/stellar-sdk · @stellar/freighter-api
